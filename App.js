@@ -37,4 +37,4 @@ const section = React.createElement(
 )
 const root = ReactDOM.createRoot(document.getElementById("root"));
 
-root.render([heading, main]);
+root.render([heading, main,section]);
