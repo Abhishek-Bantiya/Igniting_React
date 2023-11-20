@@ -30,13 +30,7 @@ const main = React.createElement(
         id: "main"
     }, "Hi, this is the main section"
 );
-const section = React.createElement(
-    "section", {
-        id: "seciton"
-    }, "Hi this is the section area"
-)
-const root = ReactDOM.createRoot(document.getElementById("root"));
 
-const js = "baby"
+const root = ReactDOM.createRoot(document.getElementById("root"));
 root.render([heading, main]);
-root.render(section);
+
