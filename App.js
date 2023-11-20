@@ -37,4 +37,5 @@ const section = React.createElement(
 )
 const root = ReactDOM.createRoot(document.getElementById("root"));
 
+const js = "baby"
 root.render([heading, main,section]);
