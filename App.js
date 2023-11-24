@@ -37,6 +37,12 @@ const section = React.createElement(
     }, "Hi, this is the section section"
 );
 
+const paragraph = React.createElement(
+    "p", {
+        id: "para", 
+    }, "Hi this is a short paragraph about myself"
+)
+
 const root = ReactDOM.createRoot(document.getElementById("root"));
-root.render([heading, main, section]);
+root.render([heading, main, section, p]);
 
