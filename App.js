@@ -26,11 +26,17 @@ const heading = React.createElement(
     "Hi, this is the Heading"
 );
 const main = React.createElement(
-    "section", {
+    "main", {
         id: "main"
     }, "Hi, this is the main section"
 );
 
+const section = React.createElement(
+    "section", {
+        id: "section"
+    }, "Hi, this is the section section"
+);
+
 const root = ReactDOM.createRoot(document.getElementById("root"));
-root.render([heading, main]);
+root.render([heading, main, section]);
 
