@@ -26,7 +26,7 @@ const heading = React.createElement(
     "Hi, this is the Heading"
 );
 const main = React.createElement(
-    "main", {
+    "section", {
         id: "main"
     }, "Hi, this is the main section"
 );
