@@ -36,6 +36,11 @@ const section = React.createElement(
         id: "section"
     }, "Hi, this is the section section"
 );
+const article = React.createElement( 
+    "article", {
+        id: "article"
+    }, "Hi this is a review about a thing in the form of an article"
+)
 
 const paragraph = React.createElement(
     "p", {
