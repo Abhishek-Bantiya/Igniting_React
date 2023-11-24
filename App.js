@@ -36,7 +36,12 @@ const section = React.createElement(
         id: "section"
     }, "Hi, this is the section section"
 );
+const article = React.createElement( 
+    "article", {
+        id: "article"
+    }, "Hi this is a review about a thing in the form of an article"
+)
 
 const root = ReactDOM.createRoot(document.getElementById("root"));
-root.render([heading, main, section]);
+root.render([heading, main, section, article]);
 
