@@ -1,4 +1,5 @@
 {
+<<<<<<< HEAD
   "name": "lsn-1",
   "version": "1.0.0",
   "description": "lesson 1",
@@ -14,6 +15,27 @@
     "@babel/core": "^7.23.6",
     "babel-plugin-transform-remove-console": "^6.9.4",
     "parcel": "^2.10.2",
+=======
+  "name": "igniting_react",
+  "version": "1.0.0",
+  "description": "",
+  "main": "App.js",
+  "scripts": {
+    "test": "jest"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Abhishek-Bantiya/Igniting_React.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Abhishek-Bantiya/Igniting_React/issues"
+  },
+  "homepage": "https://github.com/Abhishek-Bantiya/Igniting_React#readme",
+  "devDependencies": {
+    "parcel": "^2.10.3",
+>>>>>>> origin/main
     "process": "^0.11.10"
   },
   "dependencies": {

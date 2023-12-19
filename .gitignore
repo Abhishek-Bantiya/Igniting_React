@@ -1,3 +1,7 @@
 node_modules
+<<<<<<< HEAD
 .parcel-cache
 dist/
+=======
+.parcel-cache
+>>>>>>> origin/main
